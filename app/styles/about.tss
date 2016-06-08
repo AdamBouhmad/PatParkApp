@@ -1,0 +1,7 @@
+
+"#menu_button":
+{
+	width: Titanium.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "red"
+}

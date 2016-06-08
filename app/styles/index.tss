@@ -1,0 +1,59 @@
+//Background image for the Splash Page
+".container": {
+	backgroundImage:"Patterson_Park_Observatory_Bmore.JPG",
+	layout: 'vertical',
+}
+//Background image for the Splash Page
+
+"Label": 
+{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+}
+
+//static Logo for the Splash Page 
+"#leaf": 
+{ 
+top: 10,	
+}
+//static Logo for the Splash Page 
+
+//"Patterson Park Explorer" Text Label
+"#splashlabel_1": 
+{
+	top: 260,
+	color: '#E0E0E0',
+	backgroundColor: '#303030',
+	//backgroundColor:'FF6100',
+	/*top: '41%',
+    left: '28%',
+    height: '8%',*/
+    width: '100%',
+	textAlign: 'center',
+	font: {
+		fontSize: 45,
+		fontFamily: 'Helvetica Neue'
+	},
+}
+//"Patterson Park Explorer" Text Label
+
+//CONTINUE BUTTON
+"#splashbutton": 
+{
+	bottom: 600,
+	color: '#E0E0E0',
+	backgroundColor: '2C5429',
+	/*top: '57%',
+    left: '30%',
+    width: '44%',
+    height: '8%',*/
+    textAlign: 'center',
+	font: 
+	{
+		fontSize: 25,
+		fontFamily: 'Helvetica Neue'
+	}
+	
+}
+//CONTINUE BUTTON
+

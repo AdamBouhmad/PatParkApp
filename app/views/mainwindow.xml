@@ -1,0 +1,51 @@
+<Alloy>
+	
+    <Widget id="drawer" src="nl.fokkezb.drawer">
+    	
+        <Window module="xp.ui" role="leftWindow" id = "menuWindow" title = "MENU">
+            <Label>I am left</Label>
+            <TableView id ="menuTable">
+				<HeaderView>
+                    <!--> <View backgroundColor="#808080" height="70dp"/> <-->
+                    </HeaderView>
+                    <FooterView>
+                    <!--> <View backgroundColor="#808080" height="70dp"/><-->
+                    </FooterView>
+                    <!-->Slider Menu TableView<-->
+                    
+                    <TableViewRow id="row_1" rowId="1" itemName="News" onClick="doNews"><Label class = 'menutext'>News</Label></TableViewRow>
+                    <TableViewRow id="row_2" rowId="2" itemName="Upcoming Events" onClick="doEvents"><Label class='menutext'>Upcoming Events</Label></TableViewRow>
+                    <TableViewRow id="row_3" rowId="3" itemName="Landmarks" onClick="doLandmarks"><Label class='menutext'>Landmarks</Label></TableViewRow>
+                    <TableViewRow id="row_4" rowId="4" itemName="History & Nature" onClick="doHistoryNature"><Label class='menutext'>History & Nature</Label></TableViewRow>
+                    <TableViewRow id="row_5" rowId="5" itemName="Settings" onClick="doSettings"><Label class='menutext'>Settings</Label></TableViewRow>
+                    <TableViewRow id="row_6" rowId="6" itemName="About" onClick="doAbout"><Label class='menutext'>About</Label></TableViewRow>
+                    a
+            </TableView> 
+        </Window>
+        
+        <NavigationWindow platform="ios" role="centerWindow">
+        	
+            <Window>
+                <LeftNavButton>
+                    <Button id="menu_button" image ="Navicon.png" onClick="toggle">
+                    </Button>
+                </LeftNavButton>    
+					<Module id="map" module="ti.map" method="createView" onClick="report">
+					</Module>                
+            </Window>
+            
+        </NavigationWindow>
+        
+        <Window platform="android" role="centerWindow">
+            <Label>I am center</Label>
+        </Window>
+        
+    </Widget>
+    
+</Alloy>
+
+        <!--> WILL CONTAIN THE MAP LANDING PAGE -->
+                <!--<View id="mapview" module="ti.map" onClick="report">-->
+      <!--> <Module id="map" module="ti.map" method="createView" onClick="report">
+        </Module>
+      </Window><-->

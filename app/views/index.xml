@@ -1,0 +1,11 @@
+<Alloy>
+	
+	<NavigationWindow id="splash" platform="ios"> <!-- change made -->
+		<Window class="container">
+			<Label id="splashlabel_1">Patterson Park Explorer</Label>
+			<Button id ="splashbutton" title="CONTINUE" onClick="doClick"></Button>
+			<ImageView id ="leaf" image ="leaf.png"></ImageView>
+		</Window>
+	</NavigationWindow>	<!-- change made --> 
+	
+</Alloy>

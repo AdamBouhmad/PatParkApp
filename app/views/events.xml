@@ -1,0 +1,12 @@
+<Alloy>
+<NavigationWindow platform="ios" role="centerWindow">
+        	
+            <Window>
+                <LeftNavButton>
+                    <Button id="menu_button" image ="backarrow.png" onClick="openmain">
+                    </Button>
+                </LeftNavButton>      
+            </Window>
+            
+        </NavigationWindow>
+</Alloy>

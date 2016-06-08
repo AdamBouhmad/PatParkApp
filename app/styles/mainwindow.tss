@@ -1,0 +1,61 @@
+ "#drawer": 
+ {
+    openDrawerGestureMode: "OPEN_MODE_ALL",
+    closeDrawerGestureMode: "CLOSE_MODE_MARGIN",
+    leftDrawerWidth: 200,
+    // use DrawerLayout for Android
+    drawerLayout: true
+}
+
+"#menu_button":
+{
+	width: Titanium.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "red"
+}
+"#map": 
+{
+	userLocation: true, 
+	animate: true,
+	mapType: Alloy.Globals.Map.HYBRID_TYPE,
+    region : {
+    latitude: 39.288824,
+    longitude: -76.580436,
+    latitudeDelta:0.01,
+    longitudeDelta:0.01,
+    width: Ti.UI.FILL,
+    title: "Patterson Park Square",
+    subtitle: "Baltimore, Maryland",
+    pincolor: Alloy.Globals.Map.ANNOTATION_RED
+    }
+}
+
+//sliding menu itself 
+/*"#menuWindow":
+{
+	fullscreen: true,
+}*/
+
+//various menu items 
+"#menuTable":
+{
+	//top:'40',
+    //height:Ti.UI.SIZE,
+    //left:'10',
+    //right:'10',
+	backgroundColor:'#808080',
+	separatorStyle : Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+}
+
+".menutext":
+{
+	top:'100',
+	left:'50',
+	color:'white',
+}
+
+
+ 
+ // TEST FAM //
+ 
+ // TEST FAM //

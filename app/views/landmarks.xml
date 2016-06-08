@@ -1,0 +1,27 @@
+<Alloy>
+<NavigationWindow platform="ios" role="centerWindow">
+        	
+            <Window>
+                <LeftNavButton>
+                    <Button id="menu_button" image ="backarrow.png" onClick="openmain">
+                    </Button>
+                </LeftNavButton>
+                <TableView>
+                
+                <TableViewSection headerTitle = "Trees">
+              	<TableViewRow id="row_1" rowId="1" itemName="Trees"><Label class = 'Landmarks'>Text About Landmark</Label></TableViewRow>              
+ 				</TableViewSection>
+ 				
+ 				<TableViewSection headerTitle="Animals">
+ 				<TableViewRow id ="row_2" rowId="2" itemName="Animals"><Label class = 'Animals'> Text About Animals </Label></TableViewRow>
+ 				</TableViewSection>
+ 				
+ 				<TableViewSection headerTitle="Landmarks">
+ 				<TableViewRow id ="row_3" rowId="3" itemName="Landmarks"><Label class = 'Landmarks'> Text about Landmarks in the Park </Label> </TableViewRow>
+ 				</TableViewSection>
+ 				
+ 				</TableView>           
+            </Window>
+            
+        </NavigationWindow>
+</Alloy>

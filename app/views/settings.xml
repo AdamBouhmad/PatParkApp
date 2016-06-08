@@ -1,0 +1,14 @@
+<Alloy>
+<NavigationWindow platform="ios" role="centerWindow">
+        	
+            <Window>
+                <LeftNavButton>
+                    <Button id="menu_button" image ="backarrow.png" onClick="openmain">
+                    </Button>
+                </LeftNavButton>    
+					<!--><Module id="map" module="ti.map" method="createView" onClick="report">
+					</Module><-->                
+            </Window>
+            
+        </NavigationWindow>
+</Alloy>
